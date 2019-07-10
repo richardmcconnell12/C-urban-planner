@@ -30,9 +30,3 @@ namespace urban_planner
         }
     }
 }
-
-/*
-Give each building a width, height, and number of stories.
-Construct each building.
-Have business people in your city purchase each of your buildings.
- */
