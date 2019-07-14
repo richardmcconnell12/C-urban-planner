@@ -24,9 +24,16 @@ namespace urban_planner
                 Stories = 6
             };
             building2.setVolume();
-            building2.setDesigner("Roger Smitley");
+            building2.setDesigner("Joey Driscoll");
             building2.Construct();
-            building2.Purchase("Susan Jones");
+            building2.Purchase("Dance Storm");
+
+            var Smashville = new City("Smashville", 2019, "Richy Rich");
+
+            Smashville.AddBuildingToCity(building1);
+            Smashville.AddBuildingToCity(building2);
+
+            Smashville.LogCityInfo();
         }
     }
 }
