@@ -43,6 +43,10 @@ namespace urban_planner
         public void Purchase(string owner)
         {
             _owner = owner;
+        }
+
+        public void LogInfo()
+        {
             Console.WriteLine($"{_address}");
             Console.WriteLine("-----------------------");
             Console.WriteLine($"Designed by: {_designer}");
